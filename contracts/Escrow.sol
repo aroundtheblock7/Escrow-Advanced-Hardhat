@@ -152,7 +152,6 @@ contract Escrow {
                 index++;
             }
         }
-        // here you create one emtpy array where store the timestamps
         uint[] memory timestamps = new uint[](index);
         uint temp = 0;
         for (uint i=0; i<transactions.length; i++) {
